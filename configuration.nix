@@ -50,7 +50,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.hostname =  {
+  users.users.hostname = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
   };
@@ -80,11 +80,11 @@
 
   # Define networking configuration
   networking = {
-    hostName = "TODO:";
-    domain = "axitemedia.com"
+    hostName = "TODO";
+    domain = "axitemedia.com";
     interfaces = {
       enp6s18.ipv4.addresses = [{
-        address = "192.168.1.TODO:";
+        address = "192.168.1.0";
         prefixLength = 24;
       }];
     };
