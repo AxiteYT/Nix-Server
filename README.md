@@ -1,6 +1,2 @@
 # Nix-Server
-# Nix-Server
-# Nix-Server
-# Nix-Server
-# Nix-Server
-# Nix-Server
+Default config, lotta #TODO:
